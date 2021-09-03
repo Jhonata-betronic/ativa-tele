@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap');
+
+* {
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  /* background-image: linear-gradient(to bottom, #505050, #505050, #505050, #52849a, #39a3ae, #40c1ac); */
+  background-color: #06032e;
+}
+.container-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 25%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.right {
+  width: 75%;
+  height: 100%;
+}
+.container-title {
+  width: 100%;
+  height: 15%;
+  color: #40c1ac;
+}
+.name-condominium {
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+}
+.center {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  -webkit-box-align: center;
+  justify-content: center;
+}
+.container-img-stream {
+  width: 100%;
+  height: 85%;
+}
+.container-icon {
+  width: 100%;
+  /* height: 30%; */
+}
+.img-portaria {
+  width: 70%;
+}
+.icon {
+  width: 70%;
+}
+.info {
+  width: 100%;
+  flex-direction: column;
+}
+.info-portaria {
+  margin-top: 10px;
+  color: #fff;
+}
+.betronic {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: white;
+  font-size: 3.5em;
+  margin-top: -15px;
+}
+.container-qrcode {
+  width: 100%;
+  /* height: 30%; */
+  margin: 10px;
+}
+.img-qrcode {
+  width: 45%;
+}
+.container-now {
+  flex-direction: column;
+}
+.hour {
+  font-size: 3em;
+  color: #40c1ac;
+}
+.min {
+  font-size: 3em;
+  color: #40c1ac;
+}
+.sec {
+  font-size: 3em;
+  color: #40c1ac;
+}
+.date {
+  font-size: 2em;
+  color: #40c1ac;
+}
+.img-icon {
+  margin-right: 15px;
+  height: 1.5em;
+}
+.numbers {
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #fff;
+  font-weight: bold;
+}
+.whatsapp {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.info-contacts {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #40c1ac;
+}
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+}
+.phone {
+  margin-top: 10px;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+.email {
+  margin-top: 10px;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+.emails {
+  color: #fff;
+  /* font-weight: bold; */
+  font-size: 0.8em;
+}
+.container-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
