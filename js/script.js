@@ -35,7 +35,7 @@ function setTime() {
 }
 
 function setPhone() {
-    document.getElementById('whatsapp').innerHTML = `<img class="img-icon" src="img/whatsapp.svg" /><span class="numbers">${whatsapp}</span>`
+    document.getElementById('whatsapp').innerHTML = `<span class="numbers">${whatsapp}</span>`
     document.getElementById('phone').innerHTML = phone.reduce((ac, pr) => {
         ac += `<span class="numbers">${pr}</span>`
         return ac;
